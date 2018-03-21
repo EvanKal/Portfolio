@@ -1,0 +1,110 @@
+body {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #424242;
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.header__logo {
+  box-sizing: border-box;
+  display: block;
+  width: 72px;
+  height: 72px;
+  vertical-align: top;
+  margin-top: 12px;
+}
+
+.header__headers {
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.header__title {
+  font-weight: 50;
+  font-size: 4em;
+  color: #212121;
+  margin: 0;
+}
+
+.header__subtitle {
+  font-weight: 600;
+  font-size: 2em;
+  color: #212121;
+  margin: 0;
+}
+
+.horizontal__rule {
+  margin-bottom: 20px;
+  border-top: 5px solid #8c8b8b;
+}
+
+.main__section {
+  background: linear-gradient(to bottom right, white, lightblue);
+}
+
+.main__image {
+  display: block;
+  padding: 20px;
+  width: 70%;
+  height: auto;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main__image__container {
+  box-sizing: border-box;
+}
+
+.about__me {
+  display: block;
+  box-sizing: border-box;
+  font-size: 2em;
+  text-align: justify;
+  padding: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.featured__work__heading {
+  padding: 20px 0 20px 0;
+}
+
+.main__section {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  width: 100%;
+}
+
+.work:last-of-type {
+  margin-right: 0;
+}
+
+.work {
+  background: linear-gradient(to bottom right, white, lightblue);
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+.work__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  max-width: height: 60%;
+}
+
+.link {
+  display: block;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  padding: 20px;
+}
